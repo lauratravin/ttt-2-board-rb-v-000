@@ -1,3 +1,9 @@
 # Define the variable board below.
 board = Array.new(9)
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+i = 0
+9.time do
+  board[i]  =   " "
+ i = i + 1
+
+end
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
