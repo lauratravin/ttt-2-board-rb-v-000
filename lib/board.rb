@@ -1,2 +1,2 @@
 # Define the variable board below.
-board.new(9)
+board = array.new(9)
